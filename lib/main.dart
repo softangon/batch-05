@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 void main(){
   runApp(
     MaterialApp(
-      debugShowCheckedModeBanner: false,
+      //debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Padding(
             padding: EdgeInsets.symmetric(vertical: 25, horizontal: 10),
