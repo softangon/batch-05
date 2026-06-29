@@ -26,7 +26,20 @@ void main() {
               ],
             ),
             SizedBox(height: 50,),
-            Text("Mamun Islam MIM",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),)
+            Divider(),
+            Text("Mamun Islam MIM",style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold),),
+
+            ListTile(
+              tileColor: Colors.green,
+              leading: CircleAvatar(),
+              title: Text("CoderAngon"),
+
+              subtitle: Text("This is a Learning Platform."),
+
+              trailing: Icon(Icons.arrow_forward_ios_sharp),
+            ),
+
+
           ],
         ),
       ),
